@@ -124,7 +124,12 @@ div.gallery img {
 
 </ul>
 </div>
-
+<form method="post" action="search.php">
+  <p style="margin-top:10ex"><label> your borrowing id to search <input name ="borrowsearchid" type="text" size="25"></label></p>
+  
+  <input type="submit" name="btnSearch" value="Search">
+  <input type="reset" value="clear">
+  </form>
 <form method="post" action="cancel.php">
 <p style="margin-top:10ex"><label> your borrowing id <input name ="borrowid" type="text" size="25"></label></p>
 
@@ -156,6 +161,6 @@ div.gallery img {
 
 
 
-
+</form>
 </body>
 </html>
